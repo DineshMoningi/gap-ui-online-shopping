@@ -1,0 +1,11 @@
+table tr td {
+    border: 1px solid black;
+}
+.align-card-center {
+    margin: auto;
+    width: 31% !important;
+    display: flex;
+    position: absolute !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

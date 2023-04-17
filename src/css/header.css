@@ -1,0 +1,16 @@
+.home-icon {
+  width: 70px !important;
+  height: 60px !important;
+  background: white;
+}
+
+.home-icon:hover {
+  cursor: pointer;
+}
+
+.sign-login-in-buttons {
+    position: absolute;
+    right: 0px;
+    margin: 10px 20px 0 0;
+    
+}
