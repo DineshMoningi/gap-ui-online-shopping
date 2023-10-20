@@ -5,10 +5,14 @@ import {
   ThunkAction,
 } from "@reduxjs/toolkit";
 import loaderReducer from "../components/shared/loader/loaderSlice";
+import homeReducer from "../components/pages/home/slice/homeSlice";
+import searchSlice from "../components/pages/search/slice/searchSlice";
 
 export const store = configureStore({
   reducer: {
     loader: loaderReducer,
+    home: homeReducer,
+    search: searchSlice,
   },
   middleware: [
     ...getDefaultMiddleware({
